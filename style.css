@@ -157,7 +157,6 @@ img {
 .para {
     width: 100%;
     padding: 50px;
-    margin-top: 30px;
     background-color: grey;
     color: white;
     text-align: center;
@@ -165,7 +164,7 @@ img {
 
 .cards {
     max-width: 1200px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 
 }
 
