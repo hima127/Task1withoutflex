@@ -18,9 +18,11 @@ header {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1240px;
     margin: auto;
     padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -97,8 +99,9 @@ footer {
     text-align: center;
     width: 100%;
     height: 50px;
-    position: fixed;
-    bottom: 0;
+    padding-top: 10px;
+    /* position: fixed;
+    bottom: 0; */
 }
 
 .section-class {
@@ -158,13 +161,11 @@ img {
     background-color: grey;
     color: white;
     text-align: center;
-    float: left;
 }
 
 .cards {
     max-width: 1200px;
-    float: left;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 
 }
 
@@ -238,6 +239,21 @@ ul>li>ul>li {
 }
 
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+
+
 @media (max-width: 855px) {
 
 
@@ -251,6 +267,7 @@ ul>li>ul>li {
         right: 0;
         top: 0;
     }
+   
 
 
     nav ul {
@@ -281,6 +298,7 @@ ul>li>ul>li {
     .hero-text {
         margin-top: 20px;
         width: 100%;
+        padding-left: 0;
     }
 
 
